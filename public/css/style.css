@@ -42,8 +42,8 @@ section h2 {
 /* exo display */
 
 .sectionDisp {
-  margin: 15px;
-  padding: 15px;
+  margin: 25px;
+  padding: 25px;
 }
 
 .inline {
@@ -61,7 +61,7 @@ section h2 {
 
 .efloat {
   width: auto;
-  float: right;
+  float: left;
 }
 
 .sectionFloat {
@@ -75,14 +75,12 @@ section h2 {
 .tabs {
   position: fixed;
   background-color: green;
-  margin: 0;
-  top: 0;
+  top: 50px;
+  left: 50%;
 }
 
 .prel {
   position: relative;
-  top: 50px;
-  left: 50%;
 }
 /* fin exo position */
 
