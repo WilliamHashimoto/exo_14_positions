@@ -1,14 +1,46 @@
 body {
-  margin: 0
+  margin: 0;
 }
 
 /* Exo margin */
+
+section {
+  background-color: #4da6ff;
+}
+
+section h2 {
+  background-color: yellow;
+  border: 2px black solid;
+  font-size: 300px;
+}
+
+.tartine1 {
+  margin: 50px;
+}
+
+.tartine2 {
+  margin-left: 20%;
+}
+
+.tartine3 {
+  margin: auto;
+}
 /* fin exo margin */
 
 /* exo padding */
+
+.tpadding1 {
+  padding: 50px;
+}
+
+.tpadding2 {
+  padding-left: 20%;
+}
 /* fin exo padding */
 
 /* exo display */
+
+
 /* fin exo display */
 
 /* exo position */
