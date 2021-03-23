@@ -1,6 +1,7 @@
-body {
+body, h1 {
   margin: 0;
 }
+
 
 /* Exo margin */
 
@@ -11,7 +12,7 @@ section {
 section h2 {
   background-color: yellow;
   border: 2px black solid;
-  font-size: 300px;
+  font-size: 30px;
 }
 
 .tartine1 {
@@ -40,11 +41,65 @@ section h2 {
 
 /* exo display */
 
+.sectionDisp {
+  margin: 15px;
+  padding: 15px;
+}
 
+.inline {
+  display: inline-block;
+  display: inline;
+  display: block;
+}
+
+.none {
+  display: none;
+}
 /* fin exo display */
 
+/* exo float */
+
+.efloat {
+  width: auto;
+  float: right;
+}
+
+.sectionFloat {
+  overflow: auto;
+}
+
+/* fin exo float */
+
 /* exo position */
+
+.tabs {
+  position: fixed;
+  background-color: green;
+  margin: 0;
+  top: 0;
+}
+
+.prel {
+  position: relative;
+  top: 50px;
+  left: 50%;
+}
 /* fin exo position */
 
 /* exo position (priorité) */
+
+.bgandro {
+  background-color: blue;
+  margin-left: 100px;
+}
+
+.posabs {
+  position: absolute;
+}
+
+.laTart {
+  z-index: 1;
+  z-index: -1;
+}
+
 /* fin exo position (priorité) */
